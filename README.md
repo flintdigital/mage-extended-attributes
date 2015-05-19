@@ -14,8 +14,9 @@ modgit add mage-extended-attributes https://github.com/flintdigital/mage-extende
 <li>Go to System->Import/Export->Dataflow - Advanced Profiles</li>
 <li>Create a new Custom Adapter Import Profile </li>
 <li>Call it <strong>Extended Attributes Import</strong></li>
-<li>Add the Following XML snippet into you the <strong>Actions XML</strong> Input Area
-<pre>
+<li>Add the Following XML snippet into you the <strong>Actions XML</strong> Input Area</li>
+
+        ```xml
 <action type="dataflow/convert_adapter_io" method="load">
     <var name="type">file</var>
     <var name="path">var/import/extended_attribute</var>
@@ -32,8 +33,8 @@ modgit add mage-extended-attributes https://github.com/flintdigital/mage-extende
     <var name="adapter">catalog/convert_adapter_productimport</var>
     <var name="method">parse</var>
 </action>
+        ```
 
-</pre></li>
 <li>Create the directory var/import/extended_attribute</li>
 <li> Create the custom attribute with an id of "extended_attribute" it should be of the type text area</li>
 <li>Create a CSV file called extended_attribute_import.csv </li>
