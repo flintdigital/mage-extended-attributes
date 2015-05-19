@@ -9,14 +9,9 @@ This custom Dataflow Import Profile leverages the Magento Dataflow Module to cre
 modgit add mage-extended-attributes https://github.com/flintdigital/mage-extended-attributes.git
 </pre>
 
-## Configuration Instructions
-<ul>
-<li>Go to System->Import/Export->Dataflow - Advanced Profiles</li>
-<li>Create a new Custom Adapter Import Profile </li>
-<li>Call it <strong>Extended Attributes Import</strong></li>
-<li>Add the Following XML snippet into you the <strong>Actions XML</strong> Input Area</li>
+## XML Snippet
 
-        ```xml
+```xml
 <action type="dataflow/convert_adapter_io" method="load">
     <var name="type">file</var>
     <var name="path">var/import/extended_attribute</var>
@@ -33,7 +28,13 @@ modgit add mage-extended-attributes https://github.com/flintdigital/mage-extende
     <var name="adapter">catalog/convert_adapter_productimport</var>
     <var name="method">parse</var>
 </action>
-        ```
+```
+## Configuration Instructions
+<ul>
+<li>Go to System->Import/Export->Dataflow - Advanced Profiles</li>
+<li>Create a new Custom Adapter Import Profile </li>
+<li>Call it <strong>Extended Attributes Import</strong></li>
+<li>Add the Above XML snippet into you the <strong>Actions XML</strong> Input Area</li>
 
 <li>Create the directory var/import/extended_attribute</li>
 <li> Create the custom attribute with an id of "extended_attribute" it should be of the type text area</li>
