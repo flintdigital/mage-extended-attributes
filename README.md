@@ -9,6 +9,12 @@ This custom Dataflow Import Profile leverages the Magento Dataflow Module to cre
 #### You can use the slug of your choice, but I prefer using the repo name for best results. 
 modgit add mage-extended-attributes https://github.com/flintdigital/mage-extended-attributes.git
 ```
+## CSV Raw Data
+There is a sample file in the repo, however to give you an idea of how it works the csv data should look something like this: 
+```csv
+"store","sku","name","extended_attribute"
+"admin","dyn-cham127skis1213","Dynastar Cham 127 Skis","Radius | 22m, Sidecut | 149/127/141 mm, Camber Profile | Rocker/Camber, Core | Wood Fiber, Construction | Sandwich"
+```
 
 ## XML Snippet
 
