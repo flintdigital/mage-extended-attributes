@@ -5,7 +5,8 @@ A magento custom adapter that converts key-value pairs into a simple HTML table.
 This custom Dataflow Import Profile leverages the Magento Dataflow Module to create custom logic for your Dataflow imports. In this case the pipe-seperated key value paris are converted into a two column table and added to the custom attribute named "extended_attribute". I developed this for use cases where some products needed additional tabular data to be displayed on the product page without the need for addding and managing a large number of custom attributes. 
 
 ## Installation Using Modgit
-```shell
+```bash
+#### You can use the slug of your choice, but I prefer using the repo name for best results. 
 modgit add mage-extended-attributes https://github.com/flintdigital/mage-extended-attributes.git
 ```
 
