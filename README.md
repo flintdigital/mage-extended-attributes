@@ -41,7 +41,7 @@ There is a sample file in the repo, however to give you an idea of how it works 
 <li>Go to System->Import/Export->Dataflow - Advanced Profiles</li>
 <li>Create a new Custom Adapter Import Profile </li>
 <li>Call it <strong>Extended Attributes Import</strong></li>
-<li>Add the Above XML snippet into you the <strong>Actions XML</strong> Input Area</li>
+<li>Add (copy/paste) the Above XML snippet into you the <strong>Actions XML</strong> Input Area</li>
 
 <li>Create the directory var/import/extended_attribute</li>
 <li> Create the custom attribute with an id of "extended_attribute" it should be of the type text area</li>
