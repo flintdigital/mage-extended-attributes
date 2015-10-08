@@ -7,7 +7,7 @@ This custom Dataflow Import Profile leverages the Magento Dataflow Module to cre
 ## Installation Using Modgit
 ```bash
 #### You can use the slug of your choice, but I prefer using the repo name for best results. 
-modgit add mage-mod-extended-attributes-fd https://github.com/flintdigital/mage-extended-attributes.git
+modgit add mage-mod-extended-attributes-fd git@github.com:flintdigital/mage-mod-extended-attributes-fd.git
 ```
 ## CSV Raw Data
 There is a sample file in the repo, however to give you an idea of how it works the csv data should look something like this: 
